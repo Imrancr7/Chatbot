@@ -1,0 +1,133 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","Howdy","Hello, college bot","Hey","Hi, can you help me?","Hello, I have some questions","Hi, I'm a prospective student","good day","Greetings","what's up?","how is it going?","hii","hii there","goodmorning","good afternoon","goodevening"],
+  "responses": ["Hello!","Hey!","What can I do for you?","Hello! Welcome to B.M.S College of Engineering. How can I assist you today?","Hi there! How can I help you with your college-related queries?","Good day! How may I assist you with your college inquiries?","Greetings! Feel free to ask me anything about B.M.S College of Engineering.","Hello! I'm here to answer your questions about B.M.S College of Engineering.","Hi! I'm the Alice. What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you","hey who are you"],
+  "responses": ["You can call me Alice","I'm Alice","I'm Alice your virtual assistant"]
+  },
+
+  {"tag": "College info",
+  "patterns": ["Tell me about the college","What is this college known for?","Give me some information about the college","What programs does the college offer?"],
+  "responses": ["BMS College of Engineering, Bangalore, founded in 1946, is a prestigious institution known for academic excellence, industry collaborations, and a rich legacy of producing successful engineers and leaders."]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available","Tell me about the courses offered","What programs do you have?","Can you list the available majors?","Give me details about the academic programs","What courses can I study?","Tell me about the curriculum","What degrees are available?" ,"how many courses are there in this college","what all courses are there","types of courses in college","which type of courses in clg"],
+  "responses": ["We offer a wide range of academic programs, including undergraduate and postgraduate degrees. Is there a specific program you're interested in?","Our college offers various courses and majors. Could you specify your academic area of interest?","BMS College of Engineering has both under graduate and post graduate courses i.e Bachelor of Engineering and M.tech courses."]
+  },
+
+  {"tag": "contact info",
+  "patterns": ["How can I contact the college?","What's the college's phone number?","What's the email address for admissions?","Where is the college located?","Give me the contact information","I need to get in touch with the college"],
+  "responses": ["You can contact the college at +91-80-26622130-35.","The college's email address for admissions is info@bmsce.ac.in.","The college is located near Bull Temple Road, Bangalore - 560 019 Karnataka, India.","For more information, you can visit the college's website at https://bmsce.ac.in/home/."]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be B.E course","How long is the duration of the courses?","Tell me about the course durations","What's the typical length of a program?","Can you explain the duration of the courses?","How many years does a program take?","Duration of undergraduate programs?","Duration of postgraduate programs?", "how long will it take to complete B.E  course","talk about B.E","how is be in your clg"],
+  "responses": ["Our college offers 4 year long B.E course and 2 years M.Tech course.","The duration of our courses varies. Typically, undergraduate programs take about 3 to 4 years, while postgraduate programs can range from 1 to 2 years. Specific program durations may vary, so it's best to check the details for the program you're interested in."]
+  },
+
+  {"tag": "Mtech info",
+  "patterns": ["how long will be Mtech course","Tell me about M.Tech programs","What M.Tech specializations are available?","Give me details about M.Tech courses","Tell me about the Master of Technology programs","What are the M.Tech admission requirements?","Can you provide information on M.Tech admission?","M.Tech eligibility criteria","What's the M.Tech application process?" ,"how long will it take to complete M.tech  course","Courses about Mtech","Info about M.tech","Say about M.tech","give info on mtech","how is mtech in your clg"],
+  "responses": ["Sorry but I am incharge of only B.E courses college enquires."]
+  },
+
+  {"tag": "B.E List",
+  "patterns": ["List of courses in B.E","give list again", "What all courses under B.E","Courses about be","how many courses in b.e","Info about b.e courses","Say about engineering","provide list of courses","give me info of be courses","which courses can change my life","Is mechanical engineering here","is engineering here","do you have computer science engineering","hey give list of courses will you","what all branches are there in b.E","list of branches in engineering"],
+  "responses": ["The list of courses offered under B.E are:\n1. CIVIL ENGINEERING\n2. MECHANICAL ENGINEERING\n3. ELECTRICAL & ELECTRONICS ENGINEERING\n4. ELECTRONICS & COMMUNICATION ENGINEERING\n5. INDUSTRIAL ENGINEERING & MANAGEMENT\n6. COMPUTER SCIENCE AND ENGINEERING\n7. ElECTRONICS & TELECOMMUNICATION ENGINEERING\n8. INFORMATION SCIENCE AND ENGINEERING\n9. ELECTRONICS & INSTRUMENTATION ENGINEERING\n10. MEDICAL ELECTRONICS ENGINEERING\n11. BIO TECHNOLOGY\n12. CHEMICAL ENGINEERING\n13. AEROSPACE ENGINEERING\n14. ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING\n15. COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)\n16. COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)\n17. ARTIFICIAL INTELLIGENCE (AI) AND DATA SCIENCE\n18. COMPUTER SCIENCE AND BUSINESS SYSTEMS"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","Where is the college located?","Tell me about the college's location","What is the address of the college?","Can you provide directions to the college?","Where can I find the campus?","Give me information about the college's whereabouts","How do I reach the college?","what is the location of the college","Where is college?","Where to visit college","Where is the college building","clg location","what way is college"],
+  "responses": ["B.M.S College of Engineering is Located near Bull Temple Road,Basavangudi Bangalore - 560 019 Karnataka, India."]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","How many semesters are there in a year?","Tell me about the college's academic calendar","How often are semesters conducted?","What's the duration of a semester?","Explain the semester system","When does the new semester start?","Can you provide information about the academic schedule?","how many semesters one should study in a year","one year how many sem","how many months are there in a semester","how long will be a single semester","duration of a semester","one sem will be of"],
+  "responses": ["There are two semesters in a year.","The single semester will be around 4 months.","Our college operates on a 2-semester system in a year. Each semester typically lasts 4 to 5 months. ","We follow a 2-semester system, with each semester lasting 4 to 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","What are the admission requirements for students?","Tell me about the eligibility criteria for admission", "What qualifications do I need to apply?","Explain the prerequisites for admission","What documents are required during the application process?","Can you list the admission requirements?","entry requirements","admission requirements","eligibility criteria","how to enter college","Minimum academic qualifications required","elgibility for clg","qualifications for cllg"],
+  "responses": ["To be eligible for admission, students typically need to meet specific academic qualifications, provide necessary documents, and meet any additional criteria as per the program's requirements.\n Detailed admission requirements can vary by program, so it's recommended to check the specific program's webpage for detailed information.\n Basic Eligibility Criteria:A candidate who has Passed in 2nd PUC / 12 Std / Equivalent Examination with English as one of the Language and obtained a Minimum of 45% of Marks in aggregate in Physics and Mathematics as compulsory subjects along\n with Chemistry / Bio Technology / Biology / Computer Science / Electronics as optional subjects in the qualifying examination is eligible to pursue in under graduate programs (BE)."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be Four to Six classes per day. Each class will be of 55 minutes"]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Tell me about the college's teaching style","What is the approach to teaching at this college?","Explain the pedagogical methods used here","How do professors teach at this institution?","Can you describe the learning environment?","Tell me about the classroom experience","What teaching techniques are employed?","Give me insight into the instructional approach","Is the teaching pattern different from other college?","what is the teaching format?","how is teaching","how do they teach in college","what way they teach"],
+  "responses": ["Our college has different teaching patterns than other colleges of India, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details.", "At our college, we prioritize interactive and student-centered learning. Professors often use a combination of lectures, discussions, hands-on projects, and technology-enhanced methods to engage students in the learning process.","Our teaching style emphasizes active learning, critical thinking, and practical application of knowledge. Professors encourage student participation and provide a dynamic classroom experience.","We promote a learner-centric approach to education, fostering a collaborative and engaging learning environment. Professors employ diverse teaching methods to cater to various learning styles.","The teaching style here is characterized by a blend of traditional teaching methods and modern, technology-driven approaches. Students can expect a rich and interactive classroom experience.","Our college adopts a holistic teaching approach, encouraging students to explore, question, and apply knowledge. Professors are dedicated to helping students succeed in their academic journey."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","Tell me about the college's examination system","What are the types of exams conducted here?","Explain the assessment methods at this college","Can you provide information on exams and assessments?","How are students evaluated?","Tell me about the examination schedule","What exams do students need to take?","Give me details on the assessment process","What is the exam pattern","how are students assesed","what is evaluation pattern","how are exams conducted in college","exams in college"],
+  "responses": ["Each semester consists of three internal tests and one sem end examination with Alternative assesment tools","Our college conducts various types of assessments, including regular exams, quizzes, assignments, and project evaluations. The examination schedule is typically available on our website, and students are informed in advance.","Students are evaluated through a combination of written exams, practical assessments, presentations, and assignments. The examination schedule is published on our website, and students receive notifications well in advance of exam dates.","We employ a comprehensive assessment system that includes written exams, practical tests, and continuous evaluations. Detailed information about exam schedules and assessment methods is available on our website."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open", "What are the office hours?","Tell me about the college's operating hours","When is the college open?","What are the hours of operation?","Explain the schedule of the college","Can you provide information on working hours?","How late is the college open?","Give me details on the opening and closing times","what your hours of operation","timings of college","when clg starts","when clg ends","when college starts","college opens at","college closes at"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 9:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program","Tell me about fun activities on campus","What are the recreational options available?","Any upcoming campus events?","I want to know about entertainment at the college","What clubs or activities can I join for fun?","is there canteen","is there badminton court","do we get funtime in college","in clg do u have refresment zones"],
+  "responses": ["Sure! There are plenty of fun activities on campus, including sports events, cultural festivals, and club activities.","You're in luck! We have a range of fun activities, from sports tournaments to music festivals. How can I assist you further?","Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Music, Dance, Arts, Drama and acting. \nyou name it we have it. \n Also our college has basketball court, badminton court, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "refreshmentzones",
+  "patterns": [ "Tell me about dining options on campus","Where can I find good food at the college?","What are the refreshment zones?","Any recommendations for campus cafes?","I'm hungry; what's available on campus?"],
+  "responses": ["We have several dining options on campus, including cafes, Vidyarthi Khanas.","You won't go hungry here! We have a variety of dining options."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","faciliteis in coolege","what college has"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like  Library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "placements",
+  "patterns": ["Tell me about placement opportunities","What companies visit for campus placements?","Tell me about internship opportunities for students","How does the college support students in finding jobs?","Can you share some success stories of recent graduates?","What is the average salary offered to graduates?","Tell me about the career development services","Explain the role of the placement cell","What resources are available for job-seeking students?","What is the college's placement record?","Explain the campus recruitment process","Can you provide information on job placements?","How successful are students in finding jobs?","Tell me about career prospects after graduation","Give me details on employment opportunities"],
+  "responses": ["Our college hosts visits from a wide range of companies during campus placements. Renowned companies across various industries recruit our students for internships and full-time positions.","Internship opportunities are an integral part of our curriculum, allowing students to gain practical experience. The college offers career counseling, resume building, and interview preparation to support students in their job search.","We have numerous success stories of recent graduates who have secured positions in leading companies. Our career development services assist students in achieving their career goals.","The average salary offered to our graduates varies by program and industry. Detailed placement data, including salary statistics, can be found on our official website.","Our placement cell plays a crucial role in connecting students with potential employers. They organize recruitment drives, facilitate mock interviews, and provide valuable career guidance.","We offer a range of resources for job-seeking students, including access to job boards, networking events, and alumni connections. Our goal is to ensure our students have the support they need for a successful career.","Our college has a strong record of placement opportunities for students. Graduates have been successfully placed in various reputed companies. Detailed placement statistics and information are available on our website.","The college's placement cell works diligently to provide students with excellent career opportunities. You can find comprehensive information about placements, including company profiles and recruitment processes, on our official website."]
+  },
+
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","Tell me about the college's tuition fees","What are the costs associated with attending this college?","Explain the fee structure","Can you provide information on tuition and fees?","How much does it cost to study here?","Tell me about financial expenses at the college","Give me details on the fees and charges","what is the fee structure","Fees is how much","fee","admission fee","how much money to pay for college"],
+  "responses": ["B.E Courses through CET\nAdmission fee=RS 84,000\tYear \nManagment Seats fees needs to enqiured by visiting admission board in college","Tuition fees at our college vary by program and level of study. To get detailed information about tuition and other fees, please visit our website or contact the admissions office.","The fee structure depends on the program and academic level. For specific details about tuition fees, please refer to our official website or get in touch with our admissions department."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Take care","Have a great day","Adios","Goodbye, college bot","Until next time","Goodbye and thank you","So long","Goodbye for now","Have a Good Day","bye","see ya","goodnight","byee","see ya soon","i will talk to you later","shut up"],
+  "responses": ["Hope we meet soon in College","Talk you later","Goodbye","Goodbye! If you have more questions in the future, feel free to return.","Farewell! If you need assistance later on, don't hesitate to reach out.","See you later! Have a wonderful day.","Bye! Take care and stay curious.","Goodbye, and have a great day ahead!","Until next time! If you have any more inquiries, don't hesitate to ask.","Adios! If you ever need information, I'll be here.","So long! Feel free to return if you have more queries in the future."]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","I love  you","Give me money","wihgrhagjrjgkjih","anything","tell me something","oh admit me in clg", "I'm lost here","I have no idea what to ask","This doesn't seem right","Could you be more clear?","I'm not getting it","What's going on?","I'm drawing a blank","I'm in the dark","This is confusing","I'm at a loss","This isn't working","I'm puzzled","I'm at a dead end","What's the point of this?","I'm stuck here","I'm confused","This doesn't make sense","What are you talking about?","I need help!","Invalid command","Not sure what to ask","I don't know","Please assist me","Can you explain?","I'm lost","It's not clear","I'm stuck","This is gibberish","I'm unsure","I'm baffled"],
+    "responses": ["Sorry, can't understand you", "Not sure I understand","I'm sorry, I didn't understand your question. Please try asking in a different way or provide more details.","Apologies, but I couldn't comprehend your question. Could you rephrase it or be more specific?","I'm here to help, but I'm not sure what you're asking. Can you clarify or ask another question?"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you","how are you", "That's helpful","Appreciate it","You're helpful","Thanks a lot","I'm grateful","Much appreciated", "Thank you for your help","Thanks for the information","I appreciate your assistance" ,"Awesome, thanks", "Thanks for helping me","you are so kind","I thank u"],
+    "responses": ["Happy to help!", "Any time!","Fine, thanks what about you" ,"My pleasure","You're welcome! If you have any more questions, feel free to ask.","You're very welcome! If you need further assistance, don't hesitate to reach out.","No problem at all! If you have more queries in the future, don't hesitate to ask.","It was my pleasure assisting you! If you ever have more questions, just let me know.","You're welcome! I'm here to help. If you need more information, feel free to ask."]
+  },
+
+  {"tag": "others",
+    "patterns": ["I have another question","I have another question","Ask something else","Can you help with something different?","I need information on a different topic","What else can you assist me with?","I have a general query","Not sure where to ask this, but...","Any other information you can provide?","I'm curious about something else","Tell me more about campus life","Can you recommend extracurricular activities?","What's the history of the college?","Do you have any tips for new students?","Tell me about student support services","I'm interested in scholarships","Can you provide information on alumni networks?","What's the college's mission statement?","Tell me about career services","I want to know about research opportunities","What's the campus like?","Can you share success stories of alumni?","Tell me about the college's achievements","I'd like to know about study abroad programs","Do you offer online courses?","Can you explain the grading system?","Tell me about campus facilities","I'm interested in campus security","Can you provide info on international students?","Tell me about the college's values and ethos","Ask something else","Can you help with something different?","I need information on a different topic","What else can you assist me with?","I have a general query","Not sure where to ask this, but...","Any other information you can provide?"],
+    "responses": ["Of course! Please go ahead and ask your question, and I'll do my best to assist you.","Certainly! Feel free to ask any other questions you have in mind, and I'll be happy to help.","Sure, I'm here to assist you. What else would you like to know?","I'm here to provide information on a wide range of topics. What else can I assist you with today?"]
+  },
+  
+  {"tag": "Fallback",
+    "patterns": ["This doesn't make sense","What are you talking about?","I need help!","Invalid command","Not sure what to ask","I don't know","Please assist me","Can you explain?","I'm lost","It's not clear","I'm stuck","This is gibberish","I'm unsure","I'm baffled","whatever","what","come again","please you are dumb","fool","shutup","colleg life","can i get money"],
+    "responses": ["I'm sorry, I didn't understand your question. Please try asking in a different way or provide more details.","Apologies, but I couldn't comprehend your query. Could you rephrase it or be more specific?","I'm here to help, but I'm not sure what you're asking. Can you clarify or ask another question?"]
+  },
+
+  {"tag": "Ovhay",
+    "patterns": ["I am ovhay","ovhay","ovhay kumar"],
+    "responses": ["Hello, Ovhay Kumar aka the God of valorant, how is your day today"]
+  }
+
+]}
